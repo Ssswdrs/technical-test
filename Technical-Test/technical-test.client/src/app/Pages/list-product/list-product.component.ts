@@ -1,0 +1,69 @@
+import { Component } from '@angular/core';
+import { Product, SellReq, StatusRes } from './list-product.interface';
+import { HttpClient } from '@angular/common/http';
+
+@Component({
+  selector: 'app-list-product',
+  templateUrl: './list-product.component.html',
+  styleUrls: ['./list-product.component.css']
+})
+export class ListProductComponent {
+  public products: Product[] = [];
+  public tempCat: number = 0;
+
+  constructor(private http: HttpClient) { }
+
+  ngOnInit() {
+    this.getProducts(0);
+  }
+
+  getProducts(category: number) {
+      this.http.get<Product[]>('/api/products', { params: { Category: category }} ).subscribe({
+        next: (res:Product[]) => {
+         this.products = res;
+        },
+        error: (err) => {
+          console.log(err)
+        }
+      }
+    );
+  }
+
+  selectedCategory(event: any){
+    this.tempCat = parseInt(event)
+    this.http.get<Product[]>('/api/products', { params: { Category: parseInt(event) } }).subscribe({
+      next: (res: Product[]) => {
+        this.products = res;
+      },
+      error: (err) => {
+        console.error(err);
+      }
+    });
+  }
+
+  sell(data: SellReq) {
+    this.http.request<StatusRes>('DELETE', '/api/products/sell', {
+      body: { ...data }, 
+      headers: { 'Content-Type': 'application/json' } 
+    }).subscribe({
+      next: (res:StatusRes) => {
+        if(res.status == "Success"){
+          this.getProducts(this.tempCat); 
+          alert("ขายสําเร็จ")
+        }else if(res.status == "NotFound"){
+          alert("ไม่มีสินค้าในระบบ")
+        }else if(res.status == "QuantityBelowZero"){
+          alert("กรุณากรอก Quantity > 0")          
+        }else if(res.status == "OutOfStock"){
+          alert("stock ไม่เพียงพอ")          
+        }
+      },
+      error: (err) => {
+        console.log(err)
+        alert("ขายไม่สําเร็จ")
+      }
+    });
+  }
+
+
+}

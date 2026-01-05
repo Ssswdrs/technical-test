@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:65050",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\..\\technical-test.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

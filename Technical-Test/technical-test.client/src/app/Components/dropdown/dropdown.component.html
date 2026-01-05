@@ -1,0 +1,5 @@
+<select (change)="selected($event)" class="select-custom">
+  <option *ngFor="let item of ddl" [value]="item.id">
+    {{ item.categoryName }}
+  </option>
+</select>

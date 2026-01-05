@@ -1,0 +1,10 @@
+.nav-items{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+button{
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+}

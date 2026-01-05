@@ -1,0 +1,58 @@
+<form [formGroup]="productForm" (ngSubmit)="addProduct()">
+
+  <!-- ชื่อสินค้า -->
+  <div>
+    <label>ชื่อสินค้า</label>
+    <input type="text" formControlName="name">
+    <div class="error" *ngIf="name?.invalid && name?.touched">
+      <div *ngIf="name?.errors?.['required']">กรุณากรอกชื่อสินค้า</div>
+      <div *ngIf="name?.errors?.['minlength']">ชื่อสินค้าต้องอย่างน้อย 3 ตัวอักษร</div>
+    </div>
+  </div>
+
+  <!-- SKU -->
+  <div>
+    <label>SKU</label>
+    <input type="text" formControlName="sku">
+    <div class="error" *ngIf="sku?.invalid && sku?.touched">
+      <div *ngIf="sku?.errors?.['required']">กรุณากรอก SKU</div>
+      <div *ngIf="sku?.errors?.['skuTaken']">SKU ซ้ำกับสินค้าที่มีอยู่แล้ว</div>
+    </div>
+  </div>
+
+  <!-- ราคา -->
+  <div>
+    <label>ราคา</label>
+    <input type="number" formControlName="price" min="0.01" step="0.01">
+    <div class="error" *ngIf="price?.invalid && price?.touched">
+      <div *ngIf="price?.errors?.['required']">กรุณากรอกราคา</div>
+      <div *ngIf="price?.errors?.['min']">ราคาต้องมากกว่า 0</div>
+    </div>
+  </div>
+
+  <!-- สต็อก -->
+  <div>
+    <label>สต็อก</label>
+    <input type="number" formControlName="stock" min="0" step="1">
+    <div class="error" *ngIf="stock?.invalid && stock?.touched">
+      <div *ngIf="stock?.errors?.['required']">กรุณากรอกสต็อก</div>
+      <div *ngIf="stock?.errors?.['min']">สต็อกต้อง >= 0</div>
+    </div>
+  </div>
+
+  <!-- หมวดหมู่ -->
+  <div>
+    <label>หมวดหมู่</label>
+    <app-dropdown (ddlChange)="selectedCategory($event)" [includeAll]="false"></app-dropdown>
+    <div class="error" *ngIf="categoryId?.invalid && categoryId?.touched">
+      <div *ngIf="categoryId?.errors?.['required']">กรุณาเลือกหมวดหมู่</div>
+    </div>
+  </div>
+
+  <!-- Submit -->
+  <button type="submit" [disabled]="productForm.invalid">เพิ่มสินค้า</button>
+
+</form>
+
+<hr>
+

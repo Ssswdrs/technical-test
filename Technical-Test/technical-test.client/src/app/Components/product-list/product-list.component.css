@@ -1,0 +1,39 @@
+table {
+  border-collapse: collapse; 
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ccc; 
+}
+
+th {
+   background-color: lightgreen; 
+}
+
+.out-of-stock{
+    background-color: lightcoral; 
+}
+
+.less-than-10{
+    color: red; 
+    font-weight: bolder;
+}
+
+th, td {
+  padding: 8px; 
+}
+
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.same-line{
+    display: flex;
+    justify-content: center;
+}
