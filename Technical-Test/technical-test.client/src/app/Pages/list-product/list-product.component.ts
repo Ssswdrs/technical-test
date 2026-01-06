@@ -37,6 +37,7 @@ export class ListProductComponent {
     this.http.get<Product[]>('/api/products', { params: { Category: parseInt(event) } }).subscribe({
       next: (res: Product[]) => {
         this.products = res;
+        this.keyword = "";
       },
       error: (err) => {
         console.error(err);

@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ListProductComponent } from './Pages/list-product/list-product.component';
 import { AddProductComponent } from './Pages/add-product/add-product.component';
 import { DropdownComponent } from './Components/dropdown/dropdown.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     DropdownComponent
   ],
   imports: [
-    BrowserModule, HttpClientModule, AppRoutingModule, ReactiveFormsModule
+    BrowserModule, HttpClientModule, AppRoutingModule, ReactiveFormsModule, FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

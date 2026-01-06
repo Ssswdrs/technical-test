@@ -1,7 +1,7 @@
 <div class="custom-filter">
     <app-dropdown class="select-category" (ddlChange)="selectedCategory($event)"></app-dropdown>
     <div>
-        <input class="text-left keyword-search" type="search" (change)="keywordChange($event)">
+        <input [(ngModel)]="keyword" class="text-left keyword-search" type="search" (change)="keywordChange($event)" >
         <button class="button-custom" (click)="search()">Search</button>
     </div>
     <button class="button-custom" (click)="priceUpdate()">Price Update</button>
