@@ -45,7 +45,7 @@ export class ListProductComponent {
   }
 
   sell(data: SellReq) {
-    this.http.post<StatusRes>('/api/products', data).subscribe({
+    this.http.post<StatusRes>('/api/products/sell', data).subscribe({
       next: (res:StatusRes) => {
         if(res.status == "Success"){
           this.getProducts(this.tempCat); 

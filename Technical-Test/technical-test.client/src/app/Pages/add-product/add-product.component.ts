@@ -49,6 +49,7 @@ export class AddProductComponent implements OnInit {
     this.http.post<ProductRes>('/api/products', newProduct).subscribe({
       next: (res: ProductRes) => {
         console.log("response: ", res)
+        alert("เพิ่มสินค้าสำเร็จ")
         this.productForm.reset();
         // reset default values if needed
         this.productForm.patchValue({ price: 0, stock: 0 });

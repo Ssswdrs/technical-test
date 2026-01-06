@@ -81,14 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\dtos\\products\\response\\productcreatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\dtos\\products\\response\\productcreatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\db-init\\category.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\db-init\\category.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\db-init\\product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
-      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\db-init\\product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -111,26 +103,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "product.sql ",
+              "Title": "product.sql",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\product.sql",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Database\\db-init\\product.sql",
               "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\product.sql",
               "RelativeToolTip": "Technical-Test.Server\\Database\\db-init\\product.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-06T06:24:59.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T06:24:59.478Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "category.sql ",
+              "Title": "category.sql",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\category.sql",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Database\\db-init\\category.sql",
               "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\category.sql",
               "RelativeToolTip": "Technical-Test.Server\\Database\\db-init\\category.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-01-06T06:24:21.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T06:24:21.877Z"
             },
             {
               "$type": "Document",
@@ -298,8 +288,7 @@
               "RelativeToolTip": "Technical-Test.Server\\Controllers\\ProductController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAIA+wDoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:04:06.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:04:06.538Z"
             },
             {
               "$type": "Document",
@@ -321,7 +310,7 @@
               "RelativeDocumentMoniker": "Technical-Test.Server\\Database\\docker-compose.yml",
               "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\docker-compose.yml",
               "RelativeToolTip": "Technical-Test.Server\\Database\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-01-06T02:57:28.02Z",
               "EditorCaption": ""
@@ -348,8 +337,7 @@
               "RelativeToolTip": "Technical-Test.Server\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-06T02:30:34.659Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T02:30:34.659Z"
             }
           ]
         }

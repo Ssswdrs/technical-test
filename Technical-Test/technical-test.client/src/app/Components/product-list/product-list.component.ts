@@ -41,7 +41,7 @@ export class ProductListComponent implements OnChanges {
       return;
     }
     console.log(this.sellQuantity)
-    // this.sellClick.emit({ id, quantity: quantityToSell });
+    this.sellClick.emit({ id, quantity: quantityToSell });
   }
 
 
