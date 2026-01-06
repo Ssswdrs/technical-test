@@ -1,3 +1,18 @@
-.custom-filter-size{
+.custom-filter {
+    display: flex;
+}
+
+.select-category {
     width: 30%;
+    margin-right: 5px;
+}
+
+input.keyword-search {
+    height: 2rem;
+}
+
+.button-custom {
+    margin-block: 1rem;
+    margin-right: 5px;
+    height: 2rem;
 }

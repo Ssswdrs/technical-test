@@ -17,6 +17,10 @@ export interface SellReq {
   id: number;
   quantity: number;
 }
+export interface PriceUpdateReq {
+  productId: number;
+  newPrice?: number;
+}
 
 export interface StatusRes {
   status: string;

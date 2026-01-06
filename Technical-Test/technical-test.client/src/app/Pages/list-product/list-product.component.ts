@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Product, SellReq, StatusRes } from './list-product.interface';
+import { PriceUpdateReq, Product, SellReq, StatusRes } from './list-product.interface';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
@@ -8,8 +8,11 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./list-product.component.css']
 })
 export class ListProductComponent {
-  public products: Product[] = [];
-  public tempCat: number = 0;
+  products: Product[] = [];
+  tempCat: number = 0;
+  keyword: string = "";
+  priceUpdateList = new Map<number,number>();
+  priceUpdateReq: PriceUpdateReq[] = [];
 
   constructor(private http: HttpClient) { }
 
@@ -42,10 +45,7 @@ export class ListProductComponent {
   }
 
   sell(data: SellReq) {
-    this.http.request<StatusRes>('DELETE', '/api/products/sell', {
-      body: { ...data }, 
-      headers: { 'Content-Type': 'application/json' } 
-    }).subscribe({
+    this.http.post<StatusRes>('/api/products', data).subscribe({
       next: (res:StatusRes) => {
         if(res.status == "Success"){
           this.getProducts(this.tempCat); 
@@ -65,5 +65,39 @@ export class ListProductComponent {
     });
   }
 
+  priceUpdating(data: Map<number,number>){
+    this.priceUpdateList = data
+  }
 
+  priceUpdate(){
+    if(this.priceUpdateList.size <= 0) return;
+    let temp: number[] = [...this.priceUpdateList.keys()];
+    this.priceUpdateReq = temp.map(o => ({ productId: o, newPrice: this.priceUpdateList.get(o) }));
+    console.log(this.priceUpdateReq)
+    this.http.put<Product[]>('/api/products/bulk-price-update', this.priceUpdateReq).subscribe({
+      next: (res: Product[]) => {
+        this.priceUpdateReq = []
+        this.priceUpdateList.clear();
+        console.log("result => ", res)
+      },
+      error: (err) => {
+        console.error(err);
+      }
+    });
+  }
+
+  keywordChange(event : any){
+    this.keyword = event.target.value
+  }
+
+  search(){
+    this.http.get<Product[]>('/api/products/search', { params: { keyword: this.keyword, category: this.tempCat } }).subscribe({
+      next: (res: Product[]) => {
+        this.products = res;
+      },
+      error: (err) => {
+        console.error(err);
+      }
+    });
+  }
 }

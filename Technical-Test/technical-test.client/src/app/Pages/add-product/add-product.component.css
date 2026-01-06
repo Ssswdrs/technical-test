@@ -10,7 +10,7 @@ form {
 }
 
 form div {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   display: flex;
   flex-direction: column;
 }
@@ -54,6 +54,7 @@ button[type="submit"] {
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.2s;
+
 }
 
 button[type="submit"]:hover:not(:disabled) {

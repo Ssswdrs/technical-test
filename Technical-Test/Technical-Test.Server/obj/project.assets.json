@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "EFCore.BulkExtensions/9.0.2": {
+        "type": "package"
+      },
       "Microsoft.AspNetCore.SpaProxy/8.0.22": {
         "type": "package",
         "compile": {
@@ -477,6 +480,20 @@
     }
   },
   "libraries": {
+    "EFCore.BulkExtensions/9.0.2": {
+      "sha512": "d22ck8GIjmXopL8gmn6bbCwrT8FScWg6lbF0UVCQL06QYRwHFYqK9CPAkBZRB0BCl9nd8ajJwNc7UtMSy4E2oA==",
+      "type": "package",
+      "path": "efcore.bulkextensions/9.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "EFCoreBulk.png",
+        "LICENSE.txt",
+        "README.md",
+        "efcore.bulkextensions.9.0.2.nupkg.sha512",
+        "efcore.bulkextensions.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.SpaProxy/8.0.22": {
       "sha512": "CFnPIbLHsuLKKsJNC1wMFaeKvxRfDS8fnVzDxLdCI6kMbHB91tCLOm8+rPpAGV99VJSFNhduLEWx22Zjw30wag==",
       "type": "package",
@@ -1548,6 +1565,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EFCore.BulkExtensions >= 9.0.2",
       "Microsoft.AspNetCore.SpaProxy >= 8.*-*",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.22.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.4",
@@ -1605,6 +1623,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "EFCore.BulkExtensions": {
+            "target": "Package",
+            "version": "[9.0.2, )"
+          },
           "Microsoft.AspNetCore.SpaProxy": {
             "target": "Package",
             "version": "[8.*-*, )"

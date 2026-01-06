@@ -1,7 +1,6 @@
 using Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Technical_Test.Server.DTOs.Products.Request;
-using Technical_Test.Server.DTOs.Products.Response;
+using Technical_Test.Server.DTOs.Categories.Response;
 
 [ApiController]
 [Route("/api/categories")]

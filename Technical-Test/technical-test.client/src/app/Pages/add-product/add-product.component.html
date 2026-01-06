@@ -16,6 +16,7 @@
     <input type="text" formControlName="sku">
     <div class="error" *ngIf="sku?.invalid && sku?.touched">
       <div *ngIf="sku?.errors?.['required']">กรุณากรอก SKU</div>
+      <div *ngIf="sku?.errors?.['minlength']">SKU ต้องอย่างน้อย 3 ตัวอักษร</div>
       <div *ngIf="sku?.errors?.['skuTaken']">SKU ซ้ำกับสินค้าที่มีอยู่แล้ว</div>
     </div>
   </div>
@@ -50,7 +51,9 @@
   </div>
 
   <!-- Submit -->
-  <button type="submit" [disabled]="productForm.invalid">เพิ่มสินค้า</button>
+  <div>
+    <button type="submit" [disabled]="productForm.invalid">เพิ่มสินค้า</button>
+  </div>
 
 </form>
 

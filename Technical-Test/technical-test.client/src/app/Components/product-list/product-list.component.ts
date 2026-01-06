@@ -9,7 +9,9 @@ import { Product } from './product-list.interface';
 export class ProductListComponent implements OnChanges {
   @Input() data: Product[] = []; 
   @Output() sellClick = new EventEmitter();
+  @Output() priceChange = new EventEmitter();
   sellQuantity = new Map<number,number>();
+  priceUpdate = new Map<number,number>();
 
   ngOnChanges(): void {
     this.data.forEach(o => {
@@ -38,7 +40,8 @@ export class ProductListComponent implements OnChanges {
       window.alert("กรุณาเลือกจำนวนที่จะขายมากกว่า 0");
       return;
     }
-    this.sellClick.emit({ id, quantity: quantityToSell });
+    console.log(this.sellQuantity)
+    // this.sellClick.emit({ id, quantity: quantityToSell });
   }
 
 
@@ -48,5 +51,10 @@ export class ProductListComponent implements OnChanges {
       this.sellQuantity.set(id, quantity)
     }
 
+  }
+  changePrice(event :any, id: number){
+    let price = parseFloat(event.target.value);
+    this.priceUpdate.set(id, price)
+    this.priceChange.emit(this.priceUpdate)
   }
 }

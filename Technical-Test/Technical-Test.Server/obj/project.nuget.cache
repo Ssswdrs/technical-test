@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uS1JIKy/Q6E=",
+  "dgSpecHash": "J2h/TlzloyU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Technical-Test.Server.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Saksorn\\.nuget\\packages\\efcore.bulkextensions\\9.0.2\\efcore.bulkextensions.9.0.2.nupkg.sha512",
     "C:\\Users\\Saksorn\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.22\\microsoft.aspnetcore.spaproxy.8.0.22.nupkg.sha512",
     "C:\\Users\\Saksorn\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.4\\microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "C:\\Users\\Saksorn\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.4\\microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
