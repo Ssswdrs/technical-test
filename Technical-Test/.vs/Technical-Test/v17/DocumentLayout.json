@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\db-init\\category.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\db-init\\category.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\db-init\\product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\db-init\\product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -33,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\infrastructure\\persistence\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,8 +83,12 @@
       "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\dtos\\products\\response\\productcreatedresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\db-init\\category.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\db-init\\category.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|c:\\users\\saksorn\\documents\\github\\technical-test\\technical-test\\technical-test.server\\database\\db-init\\product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{8BDF1C23-91C8-4E14-9578-9E904EA2C18B}|Technical-Test.Server\\Technical-Test.Server.csproj|solutionrelative:technical-test.server\\database\\db-init\\product.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +110,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "product.sql ",
+              "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\product.sql",
+              "RelativeDocumentMoniker": "Technical-Test.Server\\Database\\db-init\\product.sql",
+              "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\product.sql",
+              "RelativeToolTip": "Technical-Test.Server\\Database\\db-init\\product.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-06T06:24:59.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "category.sql ",
+              "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\category.sql",
+              "RelativeDocumentMoniker": "Technical-Test.Server\\Database\\db-init\\category.sql",
+              "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\db-init\\category.sql",
+              "RelativeToolTip": "Technical-Test.Server\\Database\\db-init\\category.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-01-06T06:24:21.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UpdatePriceResponse.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Products\\Response\\UpdatePriceResponse.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Products\\Response\\UpdatePriceResponse.cs",
@@ -102,12 +142,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Products\\Response\\UpdatePriceResponse.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAwAQAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T05:34:10.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T05:34:10.964Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Infrastructure\\Persistence\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Infrastructure\\Persistence\\AppDbContext.cs",
@@ -115,25 +154,23 @@
               "RelativeToolTip": "Technical-Test.Server\\Infrastructure\\Persistence\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T05:14:48.307Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T05:14:48.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Technical-Test.Server",
+              "DocumentIndex": 13,
+              "Title": "Technical-Test.Server.csproj",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Technical-Test.Server.csproj",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Technical-Test.Server.csproj",
               "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Technical-Test.Server.csproj",
               "RelativeToolTip": "Technical-Test.Server\\Technical-Test.Server.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-06T05:07:31.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T05:07:31.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Properties\\launchSettings.json",
@@ -141,12 +178,11 @@
               "RelativeToolTip": "Technical-Test.Server\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-06T05:07:04.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T05:07:04.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "UpdateProductPriceRequest.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Products\\Request\\UpdateProductPriceRequest.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Products\\Request\\UpdateProductPriceRequest.cs",
@@ -154,12 +190,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Products\\Request\\UpdateProductPriceRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T04:48:21.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T04:48:21.423Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "CategoryResponse.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Categories\\Response\\CategoryResponse.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Categories\\Response\\CategoryResponse.cs",
@@ -167,12 +202,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Categories\\Response\\CategoryResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T04:06:28.65Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T04:06:28.65Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Controllers\\CategoryController.cs",
@@ -180,12 +214,11 @@
               "RelativeToolTip": "Technical-Test.Server\\Controllers\\CategoryController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T04:06:18.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T04:06:18.683Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "GetProductRequest.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Products\\Request\\GetProductRequest.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Products\\Request\\GetProductRequest.cs",
@@ -193,12 +226,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Products\\Request\\GetProductRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:21:39.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:21:39.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "StatusResponse.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Products\\Response\\StatusResponse.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Products\\Response\\StatusResponse.cs",
@@ -206,12 +238,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Products\\Response\\StatusResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:20:03.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:20:03.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Services\\CategoryService.cs",
@@ -219,12 +250,11 @@
               "RelativeToolTip": "Technical-Test.Server\\Services\\CategoryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:19:53.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:19:53.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "ProductCreatedResponse.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Products\\Response\\ProductCreatedResponse.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Products\\Response\\ProductCreatedResponse.cs",
@@ -232,12 +262,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Products\\Response\\ProductCreatedResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:19:24.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:19:24.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "ProductResponse.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\DTOs\\Products\\Response\\ProductResponse.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\DTOs\\Products\\Response\\ProductResponse.cs",
@@ -245,12 +274,11 @@
               "RelativeToolTip": "Technical-Test.Server\\DTOs\\Products\\Response\\ProductResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:19:08.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:19:08.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Interfaces\\IProductService.cs",
@@ -258,25 +286,24 @@
               "RelativeToolTip": "Technical-Test.Server\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T03:04:32.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T03:04:32.504Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Technical-Test.Server\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAvwDoAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAIA+wDoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-06T03:04:06.538Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Program.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Program.cs",
@@ -284,25 +311,24 @@
               "RelativeToolTip": "Technical-Test.Server\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T02:59:34.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T02:59:34.664Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 0,
               "Title": "docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\docker-compose.yml",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Database\\docker-compose.yml",
               "ToolTip": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Database\\docker-compose.yml",
               "RelativeToolTip": "Technical-Test.Server\\Database\\docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2026-01-06T02:57:28.02Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Technical-Test.Server\\Services\\ProductService.cs",
@@ -310,12 +336,11 @@
               "RelativeToolTip": "Technical-Test.Server\\Services\\ProductService.cs",
               "ViewState": "AgIAAJoAAAAAAAAAAAAjwJ8AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-06T02:30:35.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-06T02:30:35.274Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Saksorn\\Documents\\GitHub\\technical-test\\Technical-Test\\Technical-Test.Server\\appsettings.json",
               "RelativeDocumentMoniker": "Technical-Test.Server\\appsettings.json",
