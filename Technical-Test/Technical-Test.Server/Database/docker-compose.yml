@@ -5,11 +5,14 @@ services:
     image: postgres:16-alpine
     container_name: test_postgres
     environment:
-      - ConnectionStrings__Default=Host=db;Port=5432;Database=testdb;Username=postgres;Password=postgres
+      POSTGRES_DB: testdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres 
     ports:
       - "5432:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
+      - ./db-init:/docker-entrypoint-initdb.d
 
   pgadmin:
     image: dpage/pgadmin4
