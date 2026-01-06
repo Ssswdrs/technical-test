@@ -79,6 +79,7 @@ export class ListProductComponent {
       next: (res: Product[]) => {
         this.priceUpdateReq = []
         this.priceUpdateList.clear();
+        alert("อัปเดตราคาสำเร็จ")
         console.log("result => ", res)
       },
       error: (err) => {
